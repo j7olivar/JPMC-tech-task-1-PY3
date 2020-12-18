@@ -42,7 +42,8 @@ def getRatio(price_a, price_b):
 	""" Get ratio of price_a and price_b """
 	""" ------------- Update this function ------------- """
 	""" Also create some unit tests for this function in client_test.py """
-	if(price_b == 0) return
+	if(price_b == 0):
+		 return
 	return price_a/price_b
 
 # Main
